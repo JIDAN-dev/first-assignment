@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+.navication{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: auto;
+    margin: 20px 30px;
+    display: block;
+}
+ul, li{
+    display: flex;
+    list-style:none;
+    gap: 40px;
+    margin-top: 12px;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+button{
+    font-weight: bold;
+    margin: 25px;
+    padding: 10px 8px;
+    background-color: rgb(71, 71, 248);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
