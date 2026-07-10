@@ -1,0 +1,1 @@
+you genarate a unique placeholder section the section is Venue place now you genarate html and css code for me.
