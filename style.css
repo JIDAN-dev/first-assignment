@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 .navication{
     display: flex;
@@ -10,9 +11,7 @@ nav{
     justify-content: space-between;
 }
 img{
-    width: auto;
     margin: 20px 30px;
-    display: block;
 }
 ul, li{
     display: flex;
@@ -32,4 +31,51 @@ button{
     border: none;
     border-radius: 25px;
     cursor: pointer;
+}
+header{
+    background-image: url(./assets/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+/* banner */
+.banner, header{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.banner header h1{
+    font-size: 60px;
+    text-shadow: 5px 5px 5px red;
+    
+}
+.banner-button{
+    margin:40px auto ;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+
+/* parson */
+.person{
+    margin: 80px auto;
+    max-width: 1200px;
+    width: 90%;
+}
+.person h2{
+ display: flex;
+ font-size: 40px;
+ margin: 40px;
+ justify-content: center;
+ align-items: center;
+}
+.person-work img{
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+
 }
