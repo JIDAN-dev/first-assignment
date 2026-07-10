@@ -24,12 +24,13 @@ a{
   color: gray;
 }
 button{
+    color: white;
     font-weight: bold;
     margin: 25px;
-    padding: 10px 8px;
+    padding: 15px 18px;
     background-color: rgb(71, 71, 248);
     border: none;
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
 }
 header{
@@ -48,9 +49,9 @@ header{
     color: white;
     gap: 10px;
 }
-.banner header h1{
+.banner h1{
+    margin-left: 10px;
     font-size: 60px;
-    text-shadow: 5px 5px 5px red;
     
 }
 .banner-button{
@@ -77,15 +78,17 @@ header{
     width: 100%;
     height: 250px;
     object-fit: cover;
-    padding: 20px;
+    padding: 0px;
+    border-radius: 10px;
 
 }
 .person-card{
- display: grid;
+  display: grid;
  grid-template-columns: repeat(2, 1fr);
+ gap: 20px;
 }
 .person-card h3, p, h5{
-    margin: 5px;
+    margin: 15px;
     padding: 0px 20px;
 }
 .person-card h3{
@@ -99,4 +102,8 @@ header{
     font-size: 15px;
     font-weight: bold;
     color: rgb(90, 90, 248);
+}
+.border{
+    border: 1px solid black;
+    border-radius: 10px;
 }
