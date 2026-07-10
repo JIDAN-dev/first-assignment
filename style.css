@@ -107,3 +107,142 @@ header{
     border: 1px solid black;
     border-radius: 10px;
 }
+
+
+
+.main-card h1, .one {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.main-card p{
+    font-weight: normal;
+    font-size: 12px;
+    color: gray;
+}
+.card{
+    margin: 29px 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.list{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.list h4, h2, h5{
+    display:flex ;
+    margin: 15px;
+}
+.list h4{
+    font-size: 12px;
+}
+.list-top{
+    color:gray;
+    background-color: rgb(34, 33, 33);
+    border: 1px solid gray;
+}
+
+/* card 2 */
+
+.list-top h3{
+    font-size: 15px;
+    margin: 5px;
+}
+.list-top .two{
+    font-size: 20px;
+    color: rgb(168, 168, 245);
+}
+.list-top h2{
+    color: white;
+    font-weight:bold ;
+}
+.list-top span{
+    color: rgb(111, 111, 247);
+    margin: 5px;
+}
+.list-top h3{
+    font-size: 12px;
+}
+.list-top button, hr{
+    width: 80%;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+.list-top{
+    color:gray;
+    background-color: rgb(34, 33, 33);
+    border: 1px solid gray;
+}
+
+
+/* card 1 */
+
+.list-up h3{
+    font-size: 15px;
+    margin: 5px;
+}
+.list-up .three{
+    font-size: 20px;
+    color: rgb(168, 168, 245);
+}
+.list-up h2{
+    color: rgb(6, 5, 5);
+    font-weight:bold ;
+}
+.list-up span{
+    color: rgb(111, 111, 247);
+    margin: 5px;
+}
+.list-up h3{
+    font-size: 12px;
+    color: gray;
+}
+
+.list-up button{
+    border: 1px solid rgb(71, 71, 241) ;
+    background-color: white;
+    color:rgb(71, 71, 241) ;
+    width: 80%;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+.list-up .three{
+    font-size: 20px;
+}
+
+
+/* card 3 */
+.list-down{
+    background-color: whitesmoke;
+}
+
+.list-down h3{
+    font-size: 15px;
+    margin: 5px;
+}
+.list-down .three{
+    font-size: 20px;
+    color: rgb(168, 168, 245);
+}
+.list-down h2{
+    color: rgb(6, 5, 5);
+    font-weight:bold ;
+}
+.list-down span{
+    color: rgb(111, 111, 247);
+    margin: 5px;
+}
+.list-down h3{
+    font-size: 12px;
+    color: gray;
+}
+
+.list-down button{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    width: 80%;
+    margin-left:20px;
+    margin-bottom: 10px;    
+}
