@@ -325,3 +325,25 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+/* footer */
+.footer{
+    background-color:#052d67;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.copy-right{
+    color: #94a3b8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.policy{
+    color: #94a3b8;
+ display: flex;
+ justify-content: center;
+ padding: 20px;
+
+}
