@@ -363,8 +363,9 @@ header{
 
 /* Divider */
 .footer hr{
+    width: 93%;
     border-top: 1px solid #dce0e7;
-    margin: 35px 0;
+    margin: 35px 40px;
 }
 
 /* Bottom Section */
