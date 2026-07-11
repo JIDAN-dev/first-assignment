@@ -259,7 +259,7 @@ header{
 
 .coming-sections{
     padding:100px 8%;
-    background:#0f172a;
+    background:   #0f172a; 
     margin-bottom: 20px;
     margin-top: 50px;
 }
@@ -329,9 +329,11 @@ header{
 /* footer */
 
 .footer{
-    background-color: #111827;
+    margin-top: 150px;
+    background-color: #1c4587;
+    /* background-color: #111827; */
     color: #ffffff;
-    padding: 50px;
+    padding: 40px;
 }
 
 .footer-logo{
@@ -361,8 +363,7 @@ header{
 
 /* Divider */
 .footer hr{
-    border: none;
-    border-top: 1px solid #374151;
+    border-top: 1px solid #dce0e7;
     margin: 35px 0;
 }
 
@@ -378,7 +379,7 @@ header{
 /* Copyright */
 .copy-right{
     font-size: 15px;
-    color: #d1d5db76;
+    color: #d1d5dbe9;
 }
 
 /* Policy */
@@ -389,7 +390,7 @@ header{
 
 .policy p{
     font-size: 15px;
-    color: #d1d5db87;
+    color: #e0e5ecd2;
     cursor: pointer; 
 }
 
