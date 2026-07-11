@@ -327,23 +327,72 @@ header{
 }
 
 /* footer */
+
 .footer{
-    background-color:#052d67;
+    background-color: #111827;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.footer-logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.copy-right{
-    color: #94a3b8;
-    padding: 20px;
+
+.left-footer-logo img{
+    width: 160px;
+    display: block;
+}
+
+.right-footer-logo{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.policy{
-    color: #94a3b8;
- display: flex;
- justify-content: center;
- padding: 20px;
 
+.right-footer-logo img{
+    width: 32px;
+    cursor: pointer;
+}
+
+
+/* Divider */
+.footer hr{
+    border: none;
+    border-top: 1px solid #374151;
+    margin: 35px 0;
+}
+
+/* Bottom Section */
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Copyright */
+.copy-right{
+    font-size: 15px;
+    color: #d1d5db76;
+}
+
+/* Policy */
+.policy{
+    display: flex;
+    gap: 15px;
+}
+
+.policy p{
+    font-size: 15px;
+    color: #d1d5db87;
+    cursor: pointer; 
+}
+
+.policy p:hover{
+    color: #38bdf8;
 }
